@@ -13,18 +13,18 @@ body {
   font-family: "poppins", sans-serif;
 }
 
-.pw-header{
-    padding: 0.5rem;
+.pw-header {
+  padding: 0.5rem;
 }
 .pw-container {
   background-color: #cddee4;
-  width: 400px;
-  overflow: auto;
+  width: 420px;
   height: 330px;
   border-radius: 8px;
+  min-width: 400px;
 }
 .pw {
-    background-color: #146583;
+  background-color: #146583;
   padding: 1rem;
   font-size: 2rem;
   display: flex;
@@ -42,7 +42,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(0%, 20%);
   font-family: inherit;
   transition: opacity 0.2sec ease;
   opacity: 0;
@@ -76,5 +76,6 @@ body {
   margin-top: 1rem;
   padding: 0.75rem;
   font-size: 1rem;
- padding-left: 100px;
+  padding-left: 100px;
+  cursor: pointer;
 }
